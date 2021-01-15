@@ -1,0 +1,119 @@
+.signup_container{
+    background-color: rgb(27, 26, 26);
+   /* background: url("../resources/wavessmall.jpg");
+    background-attachment: fixed;
+    background-position: left;
+    */
+    color: #eee;
+    width: 100%;
+    height: 100vh;
+    perspective: 1000px;
+    perspective-origin: 50% 50%;
+    animation: animation 250s linear infinite;
+}
+  
+@keyframes animation {
+    100%{
+     background-position:0px 3000px;
+   }
+}
+
+.text-center{
+    margin-bottom: 15px;
+    text-align: center;
+    color: rgb(255, 242, 234);
+}
+
+.login-button{
+    margin-top:10px;
+    padding: 3px;
+    cursor:pointer;    
+}
+
+.forgot-pass {
+    color:yellow;
+    text-decoration: none !important;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.needacc{
+    color: rgb(255, 255, 255);
+    font-size: 0.8rem;
+}
+
+.signup-link{
+    color :rgb(255, 255, 255);
+    font-size: 0.9rem;
+    border: 1px solid white;
+    padding: 3px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.branding {
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.loading-anim{
+ text-align: center;
+}
+
+.forgot-pass{
+    margin-top:30px;
+}
+
+.logging-in{
+  margin-left: auto;
+  color: white;
+  font-style: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.branding p{
+    font-style: italic;
+  
+}
+
+#login-label{
+    font-size: 0.5rem;
+    color: white!important;
+}
+
+#signup-label{
+    font-size: 0.6rem;
+    color: white!important;
+}
+
+
+input{
+    outline: none;
+    caret-color: rgb(145, 107, 36);
+    padding: 2px;
+
+}
+
+.button{
+    outline: none;
+    text-decoration: none;
+    border:none;
+}
+
+.container{
+    margin-top: 100px;
+    font-size: 15px;
+    max-width: 165px;
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
+}
+
+.bottom{
+    margin-top: 60px;
+    font-size: 0.8rem;
+}

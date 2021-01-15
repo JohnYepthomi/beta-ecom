@@ -1,0 +1,97 @@
+.table-main-container{
+    position: relative;
+    width: 88vw;
+}
+
+.product-table-container{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 50px;
+    margin:10px;
+}
+  
+.filter{
+    position : absolute;
+    right:0;
+    top:0;
+    margin-top:20px;
+    margin-right: 10px;
+    cursor : pointer;
+}
+  
+.inner-table-container{
+    overflow: scroll;
+    color: #808080;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-radius: 0px  0px 5px 5px ;
+    box-shadow: -3px 3px 7px 1px lightgray;
+  }
+  
+.products-table-search{
+    border-radius: 5px;
+    box-shadow: none;
+    outline:none;
+    text-decoration: none;
+    border:none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.6rem;
+}
+  
+  
+.img-thumbnail{
+    width: 30px;
+    height:30px;
+    object-fit : cover;
+}
+  
+.variants-button{
+    padding: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 3px;
+    background-color: skyblue;
+}
+  
+.filter-button{
+    outline:none;
+    background-color: transparent;
+    border: none;
+}
+  
+.one{
+    display: flex;
+    flex-direction :row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 0.7rem;
+}
+  
+.title-input{
+    padding: 7px;
+    background-color: orange;
+    border-radius: 5px 5px 0px 0px;
+    border: none;
+    position : relative;
+}
+  
+.table-title{
+    margin: 3px;
+    font-size: 0.8rem;
+    font-family: 'Quicksand', sans-serif;
+}

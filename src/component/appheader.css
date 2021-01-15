@@ -1,0 +1,222 @@
+.Brand {
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: #686463;
+}
+.bi-list {
+  font-size: 20px;
+  color: gray;
+}
+
+.bi-search {
+  font-size: 15px;
+  color: gray;
+}
+
+.search_input {
+  font-size: 15px;
+  color: gray;
+  font-style: regular;
+  outline: none;
+  border: none;
+}
+
+.store_name {
+  font-size: 15px;
+}
+
+.bi-chevron-down {
+  margin-left: 3px;
+  font-size: 11px;
+}
+
+.bi-envelope {
+  color: gray;
+  font-size: 15px;
+}
+
+.bi-bell {
+  color: gray;
+  font-size: 15px;
+  font-style: bold;
+}
+
+.bi-power {
+  color: gray;
+  font-size: 15px;
+}
+
+.logout-button{
+    background-color: transparent;
+    margin: 0px !important;
+    padding:0px !important;
+    outline: none;
+    text-decoration: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: inline-block;
+    border: none;
+}
+
+.header-buttons-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  height: 50px;
+  background-color: white;
+}
+
+/* ****** Media Queries ****** */
+@media screen and (max-width: 380px) {
+
+    .bi-list {
+        font-size: 15px;
+        color: gray;
+    }
+
+    .bi-search {
+        font-size: 13px;
+        color: gray;
+    }
+
+    .search-container{
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .search_input {
+        margin-left: 5px;
+        font-size: 10px;
+        color: rgb(7, 7, 7);
+        width: 50px;
+        font-style: regular;
+        outline: none;
+        border: none;
+    }
+
+    .store-name-container{
+        display: flex;
+        flex-direction :row;
+        flex-wrap: nowrap;
+    }    
+
+    .store_name {
+        font-size: 12px;
+    }
+
+    .bi-chevron-down {
+        margin-left: 3px;
+        font-size: 8px;
+    }
+
+    .header-buttons-container{
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .bi-envelope {
+        color: gray;
+        font-size: 13px;
+    }
+
+    .bi-bell {
+        margin-left: 10px;
+        color: gray;
+        font-size: 13px;
+        font-style: bold;
+    }
+
+    .bi-power {
+        margin-left: 10px;
+        color: gray;
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (min-width: 380px) and (max-width: 768px) {
+
+    .bi-list {
+        font-size: 20px;
+        color: gray;
+    }
+
+    .bi-search {
+        font-size: 15px;
+        color: gray;
+    }
+
+    .search-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .search_input {
+        margin-left: 8px;
+        font-size: 10px;
+        color: gray;
+        width: fit-content;
+        font-style: regular;
+        outline: none;
+        border: none;
+    }
+
+    .store_name {
+        font-size: 10px;
+    }
+
+    .bi-chevron-down {
+        margin-left: 3px;
+        font-size: 10px;
+    }
+
+    .bi-envelope {
+        color: gray;
+        font-size: 15px;
+    }
+
+    .bi-bell {
+        margin-left: 5px;
+        color: gray;
+        font-size: 15px;
+        font-style: bold;
+    }
+
+    .bi-power {
+        margin-left: 5px;
+        color: gray;
+        font-size: 15px;
+    }
+
+    .header-buttons-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .store-name-container{
+        display: flex;
+        flex-direction :row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+}

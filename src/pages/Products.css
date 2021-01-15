@@ -1,0 +1,20 @@
+/* ============= Products Page Styling ============== */
+
+.add_product_btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  width: 115px;
+  justify-content: space-around;
+  background-color: rgb(92, 121, 94);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+

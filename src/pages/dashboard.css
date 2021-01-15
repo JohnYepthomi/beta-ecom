@@ -1,0 +1,179 @@
+.active_menu_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.top_cards_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.circle-svg{
+  position: absolute;
+  top:0;
+  right:0;
+  height: 100%;
+
+}
+
+.chart-svg{
+  position: absolute;
+  top:25px;
+  right:30px;
+}
+
+
+.sales_card {
+  background-image: linear-gradient(
+    to right, rgb(236, 182, 119),
+    rgb(216, 117, 117)
+   
+  );
+}
+
+.returns_card {
+  background-image: linear-gradient(
+    to right,  rgb(192, 194, 225),
+    rgb(111, 109, 216)
+  
+  );
+}
+
+.revenue_card {
+  background-image: linear-gradient(
+    to right, rgb(152, 236, 156),
+    rgb(71, 218, 96)
+    
+  );
+}
+
+.card {
+  width: 280px;
+  height: 200px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 1px 0px 7px 0px gray;
+}
+
+.innercard_container {
+  position: relative;
+  padding: 50px;
+}
+
+.weekly_sales {
+  font-weight: 500;
+  font-style: normal;
+  text-align: left;
+  font-family: "Ubuntu", sans-serif !important;
+  font-stretch: normal;
+}
+
+.weekly_dollar {
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: left;
+  font-style: normal;
+  font-family: "Ubuntu", sans-serif !important;
+}
+
+.active_menu_display {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bi-house-door-fill {
+  background-image: linear-gradient(
+    to right,
+    rgb(129, 181, 224),
+    rgb(95, 95, 231)
+  );
+  color: white;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: -3px 5px 5px 0px lightgray;
+}
+
+
+/* MEDIA QUERIES (320p) */
+
+@media screen and (max-width: 512px) {
+
+    .active_menu_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 12vw;
+        margin-bottom: 20px;
+    }
+
+    .active_menu_display {
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .bi-house-door-fill {
+        background-image: linear-gradient(to right, rgb(129, 181, 224), rgb(95, 95, 231));
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+        box-shadow: -3px 5px 5px 0px lightgray;
+    }
+
+    .top_cards_container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        height: 330px;
+        max-width: 600px;
+    }
+
+    .card {
+        width: 65vw;
+        max-width: 65vw;
+        height: 100px;
+        text-align: center;
+        border-radius: 5px;
+        color: white;
+        box-shadow: 1px 0px 7px 0px gray;
+    }
+
+    
+
+    .weekly_sales {
+        font-style: normal;
+        text-align: left;
+        font-family: "Ubuntu", sans-serif !important;
+        font-stretch: normal;
+    }
+
+    .weekly_dollar {
+        margin-top: 10px;
+        font-size: 5vw;
+        font-weight: 500;
+        text-align: left;
+        font-style: normal;
+        font-family: "Ubuntu", sans-serif !important;
+    }
+
+    .innercard_container {
+        padding: 25px;
+    }
+
+}
